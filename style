@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 25px 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+dl {
+  margin: 0;
+}
+
+dt {
+  background-color: #0c6e77;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 12px 25px;
+  margin-top: 20px;
+}
+
+dt:first-of-type {
+  margin-top: 0;
+}
+
+dd {
+  background-color: #236a70;
+  color: #e6f2f3;
+  margin-left: 0;
+  padding: 15px 25px;
+  line-height: 1.5;
+  text-align: justify;
+  font-size: 15px;
+}
+sup {
+  line-height: 0;
+}
+
+sup a {
+  color: #eed8b7;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 2px;
+}
+
+sup a:hover,
+sup a:focus {
+  text-decoration: underline;
+  outline: 1px dashed #5f4f36;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #cccccc;
+  margin: 25px 0 15px 0;
+}
+
+.footnotes {
+  font-size: 12.5px;
+  color: #646161;
+  line-height: 1.45;
+}
+
+.footnotes p {
+  margin: 8px 0;
+}
+
+.footnotes p:target {
+  background-color: #d8d6ce;
+  padding: 4px 6px;
+  border-radius: 3px;
+}
